@@ -1,0 +1,21 @@
+<html>
+    <h1> BANK CHURN PREDICTION</h1>
+    <body>
+        <form action="/predict" method="POST">
+            <label> customer_id </label><input type="text" name="customer_id"> <br> <br>
+            <label> credit_score </label><input type="text" name="credit_score"> <br> <br>
+            <label> Age </label><input type="text" name="age"> <br> <br>
+            <label> tenure </label><input type="text" name="tenure"> <br> <br>
+            <label> balance </label><input type="text" name="balance"> <br> <br>
+            <label> products_number </label><input type="text" name="products_number"> <br> <br>
+            <label> credit_card </label><input type="text" name="credit_card"> <br> <br>
+            <label> active_member </label><input type="text" name="active_member"> <br> <br>
+            <label> estimated_salary </label><input type="text" name="estimated_salary"> <br> <br>
+            <label> country </label><input type="text" name="country"> <br> <br>
+            <label> gender </label><input type="text" name="gender"> <br> <br>
+
+            <label> SUBMIT </label><input type="submit">
+        </form>
+        {{result}}
+    </body>
+</html>
